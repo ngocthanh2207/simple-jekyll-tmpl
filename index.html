@@ -19,7 +19,7 @@ layout: default
             <ul class="post-list">
                 {% for post in site.categories.[category_name] limit:5 %}
                 <li class="post">
-                        <!--<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>-->
+                        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
                         <h3>
                         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
@@ -27,7 +27,7 @@ layout: default
                         
                         <div class="post-excerpt">{{ post.excerpt }}</div>
                         
-                        <div class="read-more"> <a href="{{ site.baseurl }}{{ post.url }}">Read more</a> </div>
+                        <!--<div class="read-more"> <a href="{{ site.baseurl }}{{ post.url }}">Read more</a> </div>-->
                 </li>
                 {% endfor %}
             </ul>
