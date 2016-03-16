@@ -10,7 +10,7 @@ title: Page Title
 email: your_email@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Copyright © 2016. All rights reserved.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/simple-jekyll-tmpl" # the subpath of your site, e.g. /blog
 #url: "http://bongnv.github.io" # the base hostname & protocol for your site
 #twitter_username: jekyllrb
 github_username:  bongnv
