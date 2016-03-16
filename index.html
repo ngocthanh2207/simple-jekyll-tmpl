@@ -6,18 +6,17 @@ layout: default
 
   <!--<h1 class="page-heading">Posts</h1>-->
     <ul class="post-list">
-      {% for category in site.categories limit:3 %}
+      {% for category in site.live_categories.enabled limit:3 %}
         <li class="category">
-            {% assign category_name = category[0] %}
             <h2 class="category-title">
-                {% if site.[category_name].title %}
-                    {{ site.[category_name].title }}
+                {% if site.live_categories.titles.[category] %}
+                    {{ site.live_categories.titles.[category] }}
                 {% else %}
-                    {{ category_name }}
+                    {{ category }}
                 {% endif %}
             </h2>
             <ul class="post-list">
-                {% for post in site.categories.[category_name] limit:5 %}
+                {% for post in site.categories.[category] limit:5 %}
                 <li class="post">
                         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 

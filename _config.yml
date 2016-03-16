@@ -22,6 +22,10 @@ markdown: kramdown
 permalink: /:year/:month/:title.html
 
 #category namme here
-jekyll: 
-  #category title
-  title: Category Title
+live_categories:
+  enabled:
+    - jekyll
+    - update
+  titles:
+    jekyll: Category Title For Jekyll
+    update: Category Title For Update
