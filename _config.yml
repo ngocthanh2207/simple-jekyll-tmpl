@@ -20,3 +20,8 @@ markdown: kramdown
 
 # settings for generated permalinks
 permalink: /:year/:month/:title.html
+
+#category namme here
+jekyll: 
+  #category title
+  title: Category Title

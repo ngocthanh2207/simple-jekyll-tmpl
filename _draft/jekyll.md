@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: Category Title
+title: Category Page Title
 permalink: /jekyll/
 category_name: jekyll
 ---

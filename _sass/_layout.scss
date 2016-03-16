@@ -184,30 +184,36 @@
     }
     
     .post {
-        padding-bottom: 2em;
-        border-bottom: 1px solid $grey-color-light;
+        // padding-bottom: 2em;
+        // border-bottom: 1px solid $grey-color-light;
 
         .comments {
             margin-top: 10px;
         }
 
         .read-more {
-            text-transform: uppercase;
+            // text-transform: uppercase;
             font-size: 15px;
+            text-align: right;
         }
     }
     
-    .post:last-child {
-        padding-bottom: 0em;
+    .category:last-child {
+        // padding-bottom: 0em;
         border-bottom: none;
     }
     
     .post-link {
         color: inherit;
         display: block;
-        font-size: 24px;
-    }    
+        font-size: 20px;
+    }
+        
+    .category {
+        border-bottom: 1px solid $grey-color-light;    
+    }
 }
+
 
 .post-meta {
     font-size: $small-font-size;
