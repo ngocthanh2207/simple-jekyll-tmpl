@@ -17,3 +17,6 @@ github_username:  bongnv
 
 # Build settings
 markdown: kramdown
+
+# settings for generated permalinks
+permalink: /:year/:month/:title.html
